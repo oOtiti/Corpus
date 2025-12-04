@@ -1,1 +1,110 @@
 /* 首页的样式 */
+
+/* 首页内容样式 */
+.banner{
+  height: 250px;
+  background-color: rgb(255, 243, 243);
+}
+
+.banner .mid{
+  padding-top: 100px;
+  text-align: center;
+  height: 300px;
+  width: auto;
+}
+
+.banner .mid .Title p
+{
+  font-size: 50px;
+  line-height: 75px;
+  font-weight: 700;
+  color: rgb(208, 98, 43);
+}
+
+.banner .english{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: gray; 
+}
+
+.query{
+  height: 750px;
+}
+
+.query .wrapper .query-select ul{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 250px;
+  padding-left: 80px;
+}
+
+.query .query-select ul li{
+  margin-right: 20px;
+  height: 35px;
+  width: 160px;
+  line-height: 35px;
+  font-size: 20px;
+  border: 1px solid #333;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #333;
+  color:#fff;
+}
+
+.query-do{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 200px;
+}
+
+.query-do .in{
+  margin-top: 50px;
+  height: 70px;
+  width: 800px;
+  border: 2px solid #333;
+  border-radius: 35px;
+  
+}
+
+.query-do .in input{
+  height: 70px;
+  width: 700px;
+  line-height: 70px;
+  font-size: 20px;
+}
+
+.query-do .in span{
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.query-do .in a{
+  font-size: 0px;
+}
+
+.query-do .do{
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+  height: 70px;
+  width: 120px;
+  line-height: 70px;
+  text-align: center;
+  color: aliceblue;
+  background-color:#333;
+  border-radius: 35px;
+}
+
+.display{
+  text-align: center;
+  flex-wrap: nowrap;
+}
+
+.display img{
+  height: 500px;
+  width: auto;
+}
+
+.display .wrapper img:first-child{
+  margin-right: 50px;
+}
