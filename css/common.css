@@ -1,1 +1,85 @@
 /* 各个网页相同模块的重复样式，例如：头部和底部 */
+/* 版心 */
+.wrapper {
+  margin: 0px auto;
+  width: 1500px;
+}
+
+/* 快捷导航 */
+.shortcut{
+  height: 52px;
+  background-color: #333;
+}
+
+.shortcut .wrapper{
+  display: flex;
+  justify-content: flex-end;
+  height: 52px;
+}
+
+.shortcut ul{
+  display: flex;
+  line-height: 52px;
+}
+
+.shortcut ul li a{
+  padding: 0px 15px;
+  border-right: 1px solid #dfdada;
+  font-size: 14px;
+  color: #fff;
+}
+
+.shortcut ul li:last-child a{
+  border: 0px;
+}
+
+.shortcut li .iconfont{
+  margin-right: 4px;
+  /* vertical-align: middle; */
+}
+
+.shortcut li .login{
+  color: aquamarine;
+}
+
+/* 头部 */
+.header{
+  display: flex;
+  height: 100px;
+  margin: 20px auto;
+  background-color: pink;
+}
+
+.logo
+{
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  margin-right: 50px;
+  background-color: skyblue;
+}
+
+.logo a{
+  display: block;
+  width: 200px;
+  height: 88px;
+  font-size: 0px;
+  background-image: url("../images/logo.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.header .nav{
+  margin-right: 45px;
+}
+
+.header .nav ul{
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.header .nav ul li{
+  margin-right: 35px;
+}
