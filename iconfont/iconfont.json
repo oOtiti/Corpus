@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "19689765",
+      "name": "搜 索",
+      "font_class": "sousuo_huaban1",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "16792349",
+      "name": "潮汕美食  肠粉",
+      "font_class": "chaoshanmeishichangfen",
+      "unicode": "e98f",
+      "unicode_decimal": 59791
+    },
+    {
       "icon_id": "16754011",
       "name": "潮汕美食 红壳桃 红粿3",
       "font_class": "chaoshanmeishihongketaohongguo3",
